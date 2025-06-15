@@ -147,63 +147,62 @@ export const Contact = () => {
                         <div className="contact-item">
                             <h3>Contact Info</h3>
                             {loadingOrgInfo ? (
-                                <p>Loading contact information...</p> // Show loading state
+                                <p>Loading contact information...</p>
                             ) : errorOrgInfo ? (
-                                <> {/* Use a fragment to wrap the error message */}
-                                    <p>Error: {errorOrgInfo}</p> {/* Moved comment */}
+                                <>
+                                    <p>Error: {errorOrgInfo}</p>
                                 </>
-                            ) : organizationInfo ? ( // If organizationInfo is available
+                            ) : organizationInfo ? (
                                 <>
                                     <p>
                                         <span>
                                             <i className="fa fa-map-marker"></i> Address
                                         </span>{" "}
-                                        {organizationInfo.address} {/* Display address from Django backend */}
+                                        {organizationInfo.address}
                                     </p>
                                     <p>
                                         <span>
                                             <i className="fa fa-phone"></i> Phone
                                         </span>{" "}
-                                        {organizationInfo.phone_number} {/* Display phone number */}
+                                        {organizationInfo.phone_number}
                                     </p>
-                                    {organizationInfo.whatsapp_number && ( // Conditionally display WhatsApp if available
+                                    {organizationInfo.whatsapp_number && (
                                         <p>
                                             <span>
                                                 <i className="fa fa-whatsapp"></i> WhatsApp
                                             </span>{" "}
-                                            {organizationInfo.whatsapp_number} {/* Display WhatsApp number */}
+                                            {organizationInfo.whatsapp_number}
                                         </p>
                                     )}
                                     <p>
                                         <span>
                                             <i className="fa fa-envelope-o"></i> Email
                                         </span>{" "}
-                                        {organizationInfo.email} {/* Display email */}
+                                        {organizationInfo.email}
                                     </p>
                                 </>
                             ) : (
-                                <p>No contact information available.</p> // If no data is found
+                                <p>No contact information available.</p>
                             )}
                         </div>
                         <div className="col-md-12">
                             <div className="row">
                                 <div className="social">
                                     <ul>
-                                        {organizationInfo && organizationInfo.linkedin_url && ( // Conditionally display LinkedIn if available
+                                        {organizationInfo && organizationInfo.linkedin_url && (
                                             <li>
                                                 <a href={organizationInfo.linkedin_url} target="_blank" rel="noopener noreferrer">
                                                     <i className="fa fa-linkedin"></i>
                                                 </a>
                                             </li>
                                         )}
-                                        {organizationInfo && organizationInfo.whatsapp_number && ( // Conditionally display WhatsApp social link if available
+                                        {organizationInfo && organizationInfo.whatsapp_number && (
                                             <li>
                                                 <a href={`https://wa.me/${organizationInfo.whatsapp_number}`} target="_blank" rel="noopener noreferrer">
                                                     <i className="fa fa-whatsapp"></i>
                                                 </a>
                                             </li>
                                         )}
-                                        {/* You can add more social media links here if your OrganizationInfo model supports them */}
                                     </ul>
                                 </div>
                             </div>
@@ -211,12 +210,32 @@ export const Contact = () => {
                     </div>
                 </div>
             </div>
+            {/* Map Block: separate, full width under all contact blocks */}
+            <div className="container" style={{ marginTop: '32px' }}>
+              <div className="row">
+                <div className="col-xs-12">
+                  <div className="contact-map" style={{ borderRadius: '12px', overflow: 'hidden', boxShadow: '0 2px 12px rgba(0,0,0,0.10)' }}>
+                    <iframe
+                      title="Skills 4 Africa Location"
+                      src="https://www.google.com/maps?q=36.828222,10.183889&z=17&output=embed"
+                      width="100%"
+                      height="320"
+                      frameBorder="0"
+                      style={{ border: 0 }}
+                      allowFullScreen=""
+                      aria-hidden="false"
+                      tabIndex="0"
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div id="footer">
                 <div className="container text-center">
                     <p>
                         &copy; 2025 Skills 4 Africa. Design by{" "}
-                        <a href="http://www.templatewire.com" rel="nofollow">
-                            TemplateWire
+                        <a >
+                            khalil Abidi & Moetez Soltani
                         </a>
                     </p>
                 </div>

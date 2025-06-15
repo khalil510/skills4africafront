@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://skills4africa.onrender.com/api/', // Your Django API URL
+    baseURL: 'http://localhost:8000/api/', // Your Django API URL
     headers: {
         'Content-Type': 'application/json',
     },
