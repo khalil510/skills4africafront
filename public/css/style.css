@@ -208,7 +208,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  /*background: url(../img/intro-bg.jpg) center center no-repeat;*/
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -603,4 +603,88 @@ label {
   #about img {
     margin: 50px 0;
   }
+}
+/* --- Header Section Adjustments for react-slideshow-image --- */
+
+/* Ensure the parent .intro has a stacking context and is a flex container */
+.intro {
+  position: relative;
+  overflow: hidden;
+  background-color: #e5e5e5; /* Fallback background color */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 100vh; /* Ensure the intro section takes full viewport height */
+  display: flex; /* Make it a flex container to center its children */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+}
+
+/* Adjust overlay to cover the whole slider and sit above it */
+.intro .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* Make the overlay slightly darker for better text contrast */
+  z-index: 1; /* Place overlay above the slider images */
+  display: flex; /* Use flexbox to center content */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  flex-direction: column; /* Stack children vertically */
+}
+
+/* Ensure intro text is positioned within the overlay and is visible */
+header .intro-text {
+  position: relative;
+  z-index: 2; /* Place intro-text above the overlay */
+  text-align: center;
+  padding: 0; /* Reset padding to 0 */
+  margin: 0; /* Reset margin to 0 */
+  max-width: 800px;
+  box-sizing: border-box;
+}
+
+/* Override Bootstrap column styling if necessary for perfect centering */
+.intro .container .row > .col-md-8.col-md-offset-2 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Styles for react-slideshow-image specific elements */
+.react-slideshow-container {
+    height: 100%; /* Important: Make the slideshow container fill its parent */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0; /* Place slider images beneath the overlay */
+}
+
+.react-slideshow-container .each-slide-effect > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover; /* Make background image cover the entire div */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Make each slide cover the full viewport height */
+}
+
+/* Adjust h1 and p within intro-text for better visibility */
+.intro h1 {
+  font-size: 82px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+.intro p {
+  color: #fff;
+  font-size: 22px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
 }

@@ -17,8 +17,15 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
+          {/* ADDED LOGO HERE */}
           <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
+            <img
+              src="img/image_1f017e.jpg" // Path to your logo image within the 'public' folder
+              className="img-responsive" // Add Bootstrap's responsive image class
+              alt="Skills 4 Africa Logo" // Provide alt text for accessibility
+              style={{ height: '50px', marginRight: '10px', display: 'inline-block', verticalAlign: 'middle' }} // Adjust styling as needed
+            />
+            Skills 4 Africa
           </a>{" "}
         </div>
 

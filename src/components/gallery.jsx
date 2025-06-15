@@ -8,8 +8,7 @@ export const Gallery = (props) => {
         <div className="section-title">
           <h2>Gallery</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            At Skills 4 Africa, we believe in investing in the immense potential of African people. As a militant initiative for positive change, our mission is to valorize African skills, combat unemployment and poverty, and drive sustainable economic and social development. Through our dedicated team and expert partnerships, we provide cutting-edge training, strategic consulting, and development solutions tailored for Africa..
           </p>
         </div>
         <div className="row">

@@ -1,7 +1,7 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "In Africa We Invest",
+    "paragraph": "Empower People … Build Human Capital"
   },
   "About": {
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -20,49 +20,49 @@
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "Training Workshope",
+      "largeImage": "img/portfolio/01-small.png",
+      "smallImage": "img/portfolio/01-large.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Agricultural Show Paris",
+      "largeImage": "img/portfolio/02-small.png",
+      "smallImage": "img/portfolio/02-large.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "Entrepreneur Pitch Event",
+      "largeImage": "img/portfolio/03-small.png",
+      "smallImage": "img/portfolio/03-large.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "title": "Team Collaboration Meeting",
+      "largeImage": "img/portfolio/04-small.png",
+      "smallImage": "img/portfolio/04-large.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "title": "Mentorship Program",
+      "largeImage": "img/portfolio/05-small.png",
+      "smallImage": "img/portfolio/05-large.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "title": "Maghreb Export Fair",
+      "largeImage": "img/portfolio/06-small.png",
+      "smallImage": "img/portfolio/06-large.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "title": "Successful Project Showcase",
+      "largeImage": "img/portfolio/07-small.png",
+      "smallImage": "img/portfolio/07-large.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "title": "Partnership Agreement Signing",
+      "largeImage": "img/portfolio/08-small.png",
+      "smallImage": "img/portfolio/08-large.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "Tourism & Handicrafts Fair",
+      "largeImage": "img/portfolio/09-small.png",
+      "smallImage": "img/portfolio/09-large.png"
     }
   ],
   "Services": [
@@ -98,37 +98,37 @@
     }
   ],
   "Testimonials": [
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    }
-  ],
+  {
+    "img": "img/testimonials/01.jpg", 
+    "text": "\"Thanks to Skills 4 Africa's career development programs, I gained the expertise and confidence needed to advance my professional journey. Their support truly empowers people!\"",
+    "name": "Amina Traoré, Program Participant"
+  },
+  {
+    "img": "img/testimonials/02.jpg",
+    "text": "\"Skills 4 Africa's management consulting provided our organization with strategic insights that were crucial for our growth in the African market. Their team's expertise is invaluable.\"",
+    "name": "Dr. Ben Ali, CEO of a Partner Company"
+  },
+  {
+    "img": "img/testimonials/03.jpg", 
+    "text": "\"We partnered with Skills 4 Africa on a community development project, and their commitment to sustainable change and human capital development is truly inspiring. A dedicated team!\"",
+    "name": "Fatima Diallo, NGO Director"
+  },
+  {
+    "img": "img/testimonials/04.jpg", 
+    "text": "\"The entrepreneurial guidance I received from Skills 4 Africa was instrumental in launching my startup. They genuinely invest in fostering local talent and innovation.\"",
+    "name": "Kwame Nkosi, Young Entrepreneur"
+  },
+  {
+    "img": "img/testimonials/05.jpg", 
+    "text": "\"Skills 4 Africa's public relations advice significantly boosted our visibility and reputation across the region. Their strategic approach truly understands the African context.\"",
+    "name": "Isabelle Dubois, Marketing Manager"
+  },
+  {
+    "img": "img/testimonials/06.jpg", 
+    "text": "\"Their rigorous training and professional development plans have transformed our workforce, making us more efficient and competitive. Skills 4 Africa is a true partner for growth.\"",
+    "name": "Omar Hassan, HR Director"
+  }
+],
   "Team": [
     {
       "img": "img/team/01.jpg",
@@ -160,25 +160,25 @@
     "youtube": "youtube.com"
   },
   "Features": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    }
-  ]
+  {
+    "icon": "fa fa-globe",
+    "title": "Pan-African Impact & Positive Change",
+    "text": "Skills 4 Africa is a pan-African initiative dedicated to fostering positive change across the continent, driving sustainable and inclusive development."
+  },
+  {
+    "icon": "fa fa-lightbulb-o",
+    "title": "Valorizing African Human Capital",
+    "text": "Our core objective is to empower and valorize African skills in all domains, investing in human capital to unlock potential and create a dignified future for generations."
+  },
+  {
+    "icon": "fa fa-magic",
+    "title": "Fostering Entrepreneurship & Development",
+    "text": "We are committed to supporting entrepreneurship and encouraging durable economic and social development across Africa, combating unemployment and poverty through positive action."
+  },
+  {
+    "icon": "fa fa-users",
+    "title": "Expert & Dedicated Team",
+    "text": "Our team comprises qualified, passionate, and collaborative professionals with accumulated experience, dedicated to providing infallible services in consulting, training, and development."
+  }
+]
 }
